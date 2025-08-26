@@ -6,5 +6,15 @@ namespace MiPrimerProyecto
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Mundo");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Adios Mundo");
+        }
     }
 }
